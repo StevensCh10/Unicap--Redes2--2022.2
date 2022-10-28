@@ -21,7 +21,7 @@ public class ProjectService {
 	
 	public Project addProject(Project p, Long idUser) {
 		Project project = projectRepository.saveAndFlush(p);
-		projectRepository.attFkUser(idUser, project.getId());
+		projectRepository.updateFkUser(idUser, project.getId());
 		
 		return project;
 	}

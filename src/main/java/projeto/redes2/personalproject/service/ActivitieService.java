@@ -22,7 +22,7 @@ public class ActivitieService {
 	
 	public Activitie addActivitie(Activitie a, Long idProject) {
 		Activitie activitie = activitieRepository.saveAndFlush(a);
-		activitieRepository.attFkProject(idProject, activitie.getId());
+		activitieRepository.updateFkProject(idProject, activitie.getId());
 		return activitie;
 	}
 	

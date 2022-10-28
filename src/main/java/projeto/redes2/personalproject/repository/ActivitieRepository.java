@@ -25,5 +25,5 @@ public interface ActivitieRepository extends JpaRepository<Activitie, Long>{
 			value = "UPDATE activitie SET fk_project = :idProject WHERE id = :idActivitie",
 			nativeQuery = true
 		)
-		public void attFkProject(@Param("idProject") Long idProject,@Param("idActivitie") Long idActivitie);
+		public void updateFkProject(@Param("idProject") Long idProject,@Param("idActivitie") Long idActivitie);
 }

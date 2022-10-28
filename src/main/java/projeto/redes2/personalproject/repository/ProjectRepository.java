@@ -26,6 +26,6 @@ public interface ProjectRepository extends JpaRepository<Project, Long>{
 		value = "UPDATE project SET fk_user = :idUser WHERE id = :idProject",
 		nativeQuery = true
 	)
-	public void attFkUser(@Param("idUser") Long idUser,@Param("idProject") Long idProject);
+	public void updateFkUser(@Param("idUser") Long idUser,@Param("idProject") Long idProject);
 
 }
