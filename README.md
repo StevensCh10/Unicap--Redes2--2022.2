@@ -11,7 +11,7 @@ Tecnologias usadas até o momento para a construção:
                
     -Banco de dados MySQL
     
-    -Front-end sendo construído na biblioteca React(JavaScript, HTML, CSS)   
+    -Front-end sendo construído na biblioteca React(JavaScript, HTML, CSS, JSX)   
 
 IDES utilizadas: 
     
