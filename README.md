@@ -6,9 +6,9 @@ Ele tem como objetivo ser uma plataforma cuja suas funções são armazenar proj
 
 Tecnologias usadas até o momento para a construção do mesmo:
 
-    -Spring boot (JPA, Hibernate, Lombok ...)
+    -Spring boot (JPA, Hibernate, Lombok, Thymeleaf ...)
         -Será implementado Spring Security com JWT
                
     -Banco de dados MySQL
     
-    -Front-end sendo construído na biblioteca React(JavaScript, HTML, CSS)
+    -Front-end sendo construído na biblioteca React(JavaScript, HTML, CSS)   
